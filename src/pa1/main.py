@@ -3,9 +3,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 import cv2
 
-from src.gaussian import perform_conv_1derivative, perform_conv
-from src.nonmaxSuppression import perform_nonmax_suppression, get_gradient_magnitude
-from src.hysteresisThresholding import perform_hysteresis_thresholding
+from src.pa1.gaussian import perform_conv_1derivative, perform_conv
+from src.pa1.nonmaxSuppression import perform_nonmax_suppression, get_gradient_magnitude
+from src.pa1.hysteresisThresholding import perform_hysteresis_thresholding
 
 
 def save_array(

@@ -1,17 +1,16 @@
-[project]
+[tool.poetry]
 name = "pa1"
 version = "0.1.0"
 description = "UCF Computer Vision PA1: Canny Edge Detector"
-authors = [
-    {name = "Ehsan Ayoubi",email = "ehsanayoubi2005@gmail.com"}
-]
+authors = ["Ehsan Ayoubi <ehsanayoubi2005@gmail.com>"]
 readme = "README.md"
-requires-python = ">=3.12"
-dependencies = [
-    "opencv-python (>=4.12.0.88,<5.0.0.0)",
-    "matplotlib (>=3.10.6,<4.0.0)"
-]
 
+packages = [{ include = "pa1", from = "src" }]
+
+[tool.poetry.dependencies]
+python = ">=3.12"
+opencv-python = ">=4.12.0.88,<5.0.0"
+matplotlib = ">=3.10.6,<4.0.0"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
