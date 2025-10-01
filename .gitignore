@@ -1,0 +1,41 @@
+# IDE
+.idea/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Generated image outputs
+images/output/
+
+# Python bytecode / caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual env
+.venv/
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Test / type / tool caches
+.pytest_cache/
+.mypy_cache/
+.pyre/
+.pytype/
+.cache/
+
+# Coverage
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Logs / temp
+*.log
+*.tmp
