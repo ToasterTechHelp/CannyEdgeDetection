@@ -51,7 +51,7 @@ def main():
 
     # Set configuration parameters
     kernel_size = 5
-    sigma = 3
+    sigma = 1
     low_thresh = 14
     high_thresh = 16
 
