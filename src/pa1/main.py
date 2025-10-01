@@ -41,7 +41,7 @@ def save_array(
 
 def main():
     # Create an image path object
-    image_name = '41004'
+    image_name = '33066'
     extension = '.jpg'
     test_image_dir = Path('images') / 'images' / 'train'
     image_path = test_image_dir / (image_name + extension)
@@ -51,9 +51,9 @@ def main():
 
     # Set configuration parameters
     kernel_size = 5
-    sigma = 1
-    low_thresh = 14
-    high_thresh = 16
+    sigma = 3
+    low_thresh = 20
+    high_thresh = 23
 
     # Read image
     image = cv2.imread(str(image_path), cv2.IMREAD_GRAYSCALE)
