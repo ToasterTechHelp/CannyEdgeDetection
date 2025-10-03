@@ -40,7 +40,7 @@ pip install opencv-python matplotlib numpy
 
 **Run the main program:**
 ```bash
-poetry run python src.pa1.main
+poetry run python -m src.pa1.main
 ```
 
 **Steps:**
@@ -49,7 +49,7 @@ poetry run python src.pa1.main
 3. Outputs will be saved to `images/output/` with parameterized subfolders.
 4. To view results from `.npy` arrays:
    ```bash
-   poetry run python src.pa1.openNPYFiles
+   poetry run python -m src.pa1.openNPYFiles
    ```
    You will be prompted to enter the output folder name (e.g., `513531_5_1_5_10`), then results are displayed one by one.
 
